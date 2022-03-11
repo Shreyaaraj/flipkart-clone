@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+
+:root {
+    --main-bg-color: rgb(66, 116, 252);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: cener;
+    height: 40px;
+    padding: 9px 2px 1px 7px;
+}
+
+.logo img {}
+
+header {
+    /* height: 57px; */
+    background-color: var(--main-bg-color);
+    border: 2px solid rgb(255, 255, 255);
+    font-family: 'Fredoka', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 57px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    /* color: rgb(45, 4, 110);
+    text-decoration: none; */
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    /* margin: 112px; */
+
+
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 4px;
+    margin: 0 23px 0 56px;
+    padding: 0 14px;
+
+}
+
+.search button {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 900;
+
+}
+
+.slider {
+    margin: 5px 90px;
+    width: 80vw;
+    overflow: hidden;
+
+}
+
+.card {
+    /* background-color: rgb(170, 195, 247); */
+    margin: 37px auto;
+    max-width: 90vw;
+    font-family: 'PT Serif', serif;
+}
+.cards{
+    display: flex;
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    overflow: hidden;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 34px 15px;
+}
+
+.card h2 {
+    font-family: 'PT Serif', serif;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+
+
+}
